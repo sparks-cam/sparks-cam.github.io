@@ -27,7 +27,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'      # Fine with your current Gemfile
+          ruby-version: '3.3'      # Fine with your current Gemfile
           bundler-cache: true      # runs 'bundle install' and caches gems
           cache-version: 0
 
