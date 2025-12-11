@@ -8,6 +8,10 @@ title: TTRPG
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
 slug: ttrpg
 
+# Permalink
+
+permalink: /ttrpg/
+
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
   Characters, backstories, and tabletop campaign logs.

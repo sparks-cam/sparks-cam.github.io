@@ -4,6 +4,7 @@ title: Résumé*
 description: >
   "Cybersecurity Engineer Specializing in Incident Response & Cloud Security"
 hide_description: true
+permalink: /resume/
 left_column:
   - work
   - volunteer

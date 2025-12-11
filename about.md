@@ -2,6 +2,7 @@
 layout: about
 title: "About Me"
 description: "Cybersecurity Engineer • IR Specialist • Cloud & AI Security Explorer"
+permalink: /about/
 ---
 
 ## 👋 Hi, I’m Cameron — Cybersecurity Pro & Lifelong Learner
