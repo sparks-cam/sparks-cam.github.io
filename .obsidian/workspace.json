@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "b71d197e45895e6a",
+    "type": "split",
+    "children": [
+      {
+        "id": "f1dfee19ce8e53d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c32d4f6836f1d205",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6398ebd0807dc980",
+    "type": "split",
+    "children": [
+      {
+        "id": "ada483dc8bbf8e30",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "360231eae793e535",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "04c172fc87daeba4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f1d445f928b43957",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 226.5
+  },
+  "right": {
+    "id": "06e7081fb4d0e7a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "f2977afb8393dec9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5fcf538c5b28c308",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_projects/url-reputation-playbook.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for url-reputation-playbook"
+            }
+          },
+          {
+            "id": "12f191fe67e8f19c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_projects/url-reputation-playbook.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from url-reputation-playbook"
+            }
+          },
+          {
+            "id": "f21240acbcc6d722",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e14bbd7a165e279a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "36d670bff9fd3f97",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_projects/url-reputation-playbook.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of url-reputation-playbook"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "360231eae793e535",
+  "lastOpenFiles": [
+    "_site/assets/bower_components/MathJax/es5/sre/mathmaps/fr.js",
+    "_site/assets/bower_components/MathJax/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff",
+    "_site/assets/bower_components/MathJax/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff",
+    "_site/assets/bower_components/MathJax/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff",
+    "_site/assets/bower_components/MathJax/es5/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff",
+    "_site/assets/bower_components/MathJax/es5/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff",
+    "_site/assets/bower_components/MathJax/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff",
+    "_site/assets/bower_components/MathJax/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff",
+    "_site/assets/bower_components/MathJax/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff",
+    "_site/assets/bower_components/MathJax/es5/output/chtml/fonts/woff-v2/MathJax_Math-Regular.woff",
+    "assets/img/ttrpg/arkil_potrait.jpg@0,5x.jpg",
+    "assets/img/ttrpg/New Bitmap image.bmp",
+    "assets/img/ttrpg/arkil_potrait.jpg",
+    "assets/img/ttrpg/arkil-potrait.jpg",
+    "_site/blog/ttrpg/2025-12-10-wildfire-druid/index.html",
+    "_site/assets/img/ttrpg/arkil-potrait.png",
+    "_posts/2025-10-12-wildfire-druid.md",
+    "assets/img/ttrpg/arkil-potrait.png",
+    "assets/img.md",
+    "_projects/url-reputation-playbook.md"
+  ]
+}
