@@ -11,7 +11,7 @@
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
 # baseurl:               "/hydejack"
 
- repository:          "sparks-cam/sparks-cam.github.io"
+# repository:          "sparks-cam/sparks-cam.github.io"
 
 # General settings
 # ---------------------------------------------------------------------------------------
