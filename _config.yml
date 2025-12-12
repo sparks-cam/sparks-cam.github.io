@@ -13,6 +13,11 @@
 
 # repository:          "sparks-cam/sparks-cam.github.io"
 
+# Used to get rid of Invalid US-ASCII character in the Cloudflare deployment
+
+encoding: "utf-8"
+
+
 # General settings
 # ---------------------------------------------------------------------------------------
 

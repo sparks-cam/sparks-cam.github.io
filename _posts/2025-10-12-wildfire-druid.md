@@ -1,6 +1,6 @@
 ---
 layout: post
-title: D&D 2024 Sandbox Character — Wildfire Druid / Tiefling / 3
+title: D&D Sandbox Character — Wildfire Druid / Tiefling
 date: 2025-12-10
 categories: ttrpg
 tags: [Character, Build, Druid]
@@ -9,7 +9,7 @@ image:
   thumbnail: /assets/img/ttrpg/wildfire-tiefling/arkil_face_thumbnail_resize.png
   ratio: auto
 ---
-## D&D 2024 Sandbox Character— Wildfire Druid / Tiefling / 3
+## D&D Sandbox Character — Wildfire Druid / Tiefling
 
 
 ## Character - Campaign Introduction
