@@ -5,8 +5,8 @@ date: 2025-12-10
 categories: ttrpg
 tags: [Character, Build, Druid]
 image:
-  path: /assets/img/ttrpg/wildfire-tiefling/arkil_face_thumbnail_resize.png
-  thumbnail: /assets/img/ttrpg/wildfire-tiefling/arkil_face_thumbnail_resize.png
+  path: https://github.com/sparks-cam/sparks-cam.github.io/releases/download/assets-v1/arkil_face_thumbnail_resize.webp
+  thumbnail: https://github.com/sparks-cam/sparks-cam.github.io/releases/download/assets-v1/arkil_face_thumbnail_resize.webp
   ratio: auto
 ---
 ## D&D Sandbox Character — Wildfire Druid / Tiefling
@@ -14,19 +14,20 @@ image:
 
 ## Character - Campaign Introduction
 
-One of the groups I'm in has recently decided to start a new campaign. The group has historically done D&D 5e and are looking to transition to the new 2024 Rules. Now the campaign previously for this group was a traditional Linear Story-focused campaign focusing on plot. Due to a number of life-changes(marriage, kids, jobs, school, you get the idea) for a lot of us our time is short for planning, scheduling, and playing. So in order to accommodate we've decided to switch to more Sandbox Campaign playstyle. The specifics of the campaign haven't really been determined. I'm unsure at the time of this post whether the campaign is more of a western marches style exploration, hex crawl, mega dungeon, or even survival but I do know it will be a Sandbox style gameplay without a ton of lore behind it at the beginning so I'm building this particular character in mind. 
+One of the groups I'm in has recently decided to start a new campaign. The group has historically done D&D 5e and are looking to transition to the new 2024 Rules. However, not everyone has access to the 2024 Rulebook so I'll be providing a character build for both 2014 and 2024.  
+
+The campaign previously for this group was a traditional linear story-focused campaign focusing on plot. Due to a number of life-changes(marriage, kids, jobs, school, you get the idea) for a lot of us our time is short for planning, scheduling, and playing. So in order to accommodate we've decided to switch to more Sandbox Campaign playstyle. The specifics of the campaign haven't really been determined. I'm unsure at the time of this post whether the campaign is more of a western marches style exploration, hex crawl, mega dungeon, or even survival but I do know it will be a sandbox style gameplay without a ton of lore behind it at the beginning so I'm building this particular character in mind. 
 
 Campaigns without a ton of world lore available in the beginning is both a positive and a negative. Positive aspect is I'm free to build my characters history, bonds and connections however I please and the DM can find useful ways to interact with it. The negative is that with the lack of connection to the world initially my character can end up wildly out of place in the setting, party, or world.
-I'll be building this characters backstory with enough flexibility hopefully address the negative concerns. 
+I'll be building this characters backstory with enough flexibility to hopefully address the negatives.
 
 ## 🪶 Character Overview
 
-![Arkil - Tiefling Wildfire Druid](/assets/img/ttrpg/wildfire-tiefling/arkil_400.png)
+![Arkil - Tiefling Wildfire Druid](https://github.com/sparks-cam/sparks-cam.github.io/releases/download/assets-v1/arkil_400.webp)
 
 **Name**: Arkil  
 **Race/Ancestry**:  Tiefling (Infernal)  
 **Class / Subclass (or Archetype)**:  Wildfire Druid  
-**Level**:  3  
 **Alignment / Motivation**:  Neutral Evil (pragmatic, vengeful, but cooperative if it serves his aims)  
 **Pronouns**:  He/Him
 
@@ -44,14 +45,186 @@ Raised among a reclusive cabal of Tiefling nobles calling themselves the **Ashen
 
 Now, they seek power  political, magical, and financial to **rebuild the Court**. They view fire as **a gardener’s tool**: pruning the world of corruption so strength can flourish.
 
+One of the key aspects of building a character for a sandbox campaign is their initial motivations for joining the adventure. This is probably even more a sticking point for an evil character because if their goal doesn't align with how a party operates it can slowly start to make less and less sense for the character be involved at all. 
+
+
+**Campaign Motivations** 
+Adventuring is a profession for anyone who has the desire, capability, and fortitude to not only make money but also gain respect and most importantly influence. Adventurers  who accomplish amazing feats, conquer the unknown, and protect populaces are well-known across continents and also have the influence and impact to even start their own kingdoms.  That influence and impact is exactly what Arkil needs to not only rebuild the Ashen court but also place The Court above any kingdom or empire. 
+
+
 **How They Get Along in a Party:**
 
 - Charming, well-spoken, and pragmatic
 - Will protect allies if they prove useful
-- Sees the adventuring guild as a stepping-stone to influence
+- Sees the adventuring guild/exploration as a stepping-stone to influence.
 
 **Roleplay Hooks:**
 
 - Collects names of nobles and politicians with… combustible secrets.
 - Might occasionally test allies’ loyalty in uncomfortable ways.
 - Keeps a scorched signet ring from their fallen house
+
+---
+
+## Character Build
+
+The following section includes **two complete builds**:
+- **D&D 5e (2014 Rules)** — for legacy tables
+- **D&D 2024 Rules** — for updated sandbox play
+
+Both builds assume **Level 3** starting play.
+
+---
+
+#  D&D 5e (2014 Rules) Build
+
+## Class Progression
+**Druid 3 — Circle of Wildfire**
+
+## Ability Scores (Point Buy)
+| Stat | Score |
+|-----|------|
+| STR | 8 |
+| DEX | 14 |
+| CON | 14 |
+| INT | 10 |
+| WIS | 16 |
+| CHA | 12 |
+
+> Wisdom is prioritized for spell DCs and battlefield control. Constitution supports concentration. Charisma is intentionally not dumped to support Arkil’s manipulative presence.
+
+## Race: Tiefling (Infernal)
+- **Darkvision**
+- **Hellish Resistance** (Fire)
+- **Thaumaturgy**
+- **Hellish Rebuke (1/day)** at 3rd level
+
+## Proficiencies
+- **Armor**: Light armor, medium armor, shields (non-metal)
+- **Weapons**: Simple weapons
+- **Skills**: Insight, Perception, Deception, Survival
+
+## Wildfire Spirit
+- Summoned using **Wild Shape**
+- Provides **teleportation**, **fire damage**, and **battlefield repositioning**
+- Flavor: a small infernal bear of living flame
+
+## Spellcasting (Prepared Spells)
+
+### Cantrips
+- **Produce Flame**
+- **Create Bonfire**
+- **Guidance**
+
+### 1st Level
+- **Entangle**
+- **Faerie Fire**
+- **Absorb Elements**
+- **Healing Word**
+
+### 2nd Level
+- **Flaming Sphere**
+- **Scorching Ray** *(Circle Spell)*
+- **Lesser Restoration**
+
+> This build focuses on **area denial**, **forced movement**, and **attrition**, rather than raw damage.
+
+## Playstyle (2014)
+- Control terrain with fire and difficult terrain
+- Teleport allies and yourself with the Wildfire Spirit
+- Ruthless efficiency over flashy heroics
+
+---
+
+# D&D 2024 Rules Build (Updated)
+
+> This build reflects the changes in the 2024 Player’s Handbook for Druids.  
+> Many core mechanics — especially Wild Shape — have been revised for increased flexibility and action economy.
+
+## Core Class Changes (2024)
+
+### Wild Shape (Revised)
+In the 2024 rules, Wild Shape:
+- Uses a **bonus action** to assume beast form (not a full action). :contentReference[oaicite:5]{index=5}
+- Grants **temporary hit points** equal to your Druid level instead of replacing your HP. :contentReference[oaicite:6]{index=6}
+- You retain your personality, memories, ability to speak, and many class features while in Wild Shape. :contentReference[oaicite:7]{index=7}
+- You can only know a **limited set of forms**, chosen from eligible beasts and replaceable after a Long Rest. :contentReference[oaicite:8]{index=8}
+- You gain **additional uses** of Wild Shape as you level (2 uses at level 2, 3 at level 6, 4 at level 17). :contentReference[oaicite:9]{index=9}
+
+### 🐾 Wild Companion
+Druids can now expend a Wild Shape use or a spell slot to cast *Find Familiar*, summoning a fey animal companion that lasts until long rest. :contentReference[oaicite:10]{index=10}
+
+### 🔄 Wild Resurgence
+You can spend a spell slot to regain a use of Wild Shape, or vice-versa (exchange one use to recover a 1st-level slot on a long rest). :contentReference[oaicite:11]{index=11}
+
+---
+
+## Updated Build — 2024 Rules (Level 3)
+
+### Class Progression
+**Druid 3 — Circle of Wildfire**
+
+### Ability Scores
+| Stat | Score |
+|------|-------|
+| STR  | 8 |
+| DEX  | 14 |
+| CON  | 14 |
+| INT  | 10 |
+| WIS  | 17 |
+| CHA  | 12 |
+
+*Wisdom is prioritized for spellcasting and Wild Shape synergy.*
+
+---
+
+## Wild Shape Options
+At level 3 in 2024:
+- You choose **four known forms** (such as Wolf, Giant Badger, Panther, etc.) that you can use as Wild Shape forms. :contentReference[oaicite:12]{index=12}
+
+This gives you tactical versatility without scanning the entire Monster Manual.
+
+---
+
+## Key Abilities
+
+### Wild Shape (Bonus Action)
+- Not an action economy penalty anymore — you can cast a spell and then Wild Shape in the same turn in many cases. :contentReference[oaicite:13]{index=13}  
+- Temporary HP equal to druid level helps keep you in the fight.
+
+### Wild Companion (Familiar)
+- A reliable scout and utility piece.
+- Useful for social situations, environmental hazards, and early recon.
+
+### Wild Resurgence
+- Provides **flexibility between spellcasting and beast utility**.
+
+---
+
+## Spellcasting (Prepared Spells)
+
+### Cantrips
+- **Produce Flame**
+- **Create Bonfire**
+- **Guidance** *(utility boost)*
+
+### 1st Level
+- **Absorb Elements**
+- **Faerie Fire**
+- **Healing Word**
+- **Entangle**
+
+### 2nd Level
+- **Flaming Sphere**
+- **Scorching Ray**
+- **Lesser Restoration**
+
+---
+
+## 2024 Playstyle Notes
+
+- Wild Shape is **less about taking over combat** and more about **strategic utility** — quick repositioning, scouting, and battlefield repositioning. :contentReference[oaicite:14]{index=14}  
+- You now have more frequent uses and **bonus action conversion**, which makes this build far more dynamic than the 2014 Wild Shape mechanic. :contentReference[oaicite:15]{index=15}  
+- Wild Companion adds **reliable support utility** without costing precious slots.
+
+---

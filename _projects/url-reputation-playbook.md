@@ -7,7 +7,7 @@ tags: [SOAR, automation, threat-intel, splunk, python, incident-response]
 description: >
   Splunk SOAR playbook that automates URL reputation investigations with modular enrichment, analyst guidance, and case updates.
 image:
-  path: /assets/img/projects/url_playbook_overview_obfuscated.png
+  path: https://github.com/sparks-cam/sparks-cam.github.io/releases/download/assets-v1/url_playbook_overview_obfuscated.webp
 links:
   - title: GitHub Repo (coming soon)
     url: https://github.com/yourusername/soar-hardening
@@ -78,18 +78,18 @@ The result is a **single actionable summary** inside the case.
 
 **Initial Input & Decision Path**
 
-![Playbook Overview](/assets/img/projects/url_playbook_overview_obfuscated.png)
+![Playbook Overview](https://github.com/sparks-cam/sparks-cam.github.io/releases/download/assets-v1/url_playbook_overview_obfuscated.webp)
 
 ---
 
 ## Key Features at a Glance
 
-- 🔍 Multi-source reputation scoring
-- ⚙️ Automatically updates notable + artifacts
-- ✍️ Human-readable analyst note summary
-- 🧩 Designed as a **core module** for future playbooks
-- 👩‍💻 Analyst override for case-by-case nuance
-- 🧠 Standardized enrichment → better case investigations
+- Multi-source reputation scoring
+- Automatically updates notable + artifacts
+- Human-readable analyst note summary
+- Designed as a **core module** for future playbooks
+- Analyst override for case-by-case nuance
+- Standardized enrichment → better case investigations
 
 ---
 
@@ -118,20 +118,4 @@ Building this taught me a ton about:
 
 ---
 
-## Why This Matters for My Career
 
-This project directly supports my career focus on:
-
-- **SOAR and detection engineering**
-- **Cloud + AI-assisted security**
-- **Security automation strategy**
-
-Every security team deals with phishing and malicious URLs — this playbook transforms a repetitive step into a **high-value, automated capability** that scales with the threat landscape.
-
-> Automate what’s repetitive.  
-> Empower analysts.  
-> Improve patient and organizational safety.
-
----
-
-*Updated from original concept and documentation to better reflect full workflow and impact.* :contentReference[oaicite:1]{index=1}

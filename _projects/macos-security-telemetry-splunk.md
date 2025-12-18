@@ -9,7 +9,7 @@ description: >
   using logd predicates and Splunk Universal Forwarder, with private data
   enabled via MDM configuration profiles.
 image:
-  path: /assets/img/projects/mac_os.jpg
+  path: https://github.com/sparks-cam/sparks-cam.github.io/releases/download/assets-v1/mac_os.webp
 ---
 
 ## MacOS Unified Logging: Sysmon-Style Security Telemetry to Splunk

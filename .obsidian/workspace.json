@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f1dfee19ce8e53d6",
+        "id": "a2a8d9cf4c1b6284",
         "type": "tabs",
         "children": [
           {
-            "id": "c32d4f6836f1d205",
+            "id": "f7db7ce63580f7cd",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_projects/url-reputation-playbook.md",
+                "file": "_posts/2025-10-12-wildfire-druid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for url-reputation-playbook"
+              "title": "Backlinks for 2025-10-12-wildfire-druid"
             }
           },
           {
@@ -109,12 +109,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_projects/url-reputation-playbook.md",
+                "file": "_posts/2025-10-12-wildfire-druid.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from url-reputation-playbook"
+              "title": "Outgoing links from 2025-10-12-wildfire-druid"
             }
           },
           {
@@ -152,16 +152,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_projects/url-reputation-playbook.md",
+                "file": "_posts/2025-10-12-wildfire-druid.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of url-reputation-playbook"
+              "title": "Outline of 2025-10-12-wildfire-druid"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -179,27 +180,37 @@
       "bases:Create new base": false
     }
   },
-  "active": "360231eae793e535",
+  "active": "f7db7ce63580f7cd",
   "lastOpenFiles": [
-    "_site/assets/bower_components/MathJax/es5/sre/mathmaps/fr.js",
-    "_site/assets/bower_components/MathJax/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff",
-    "_site/assets/bower_components/MathJax/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff",
-    "_site/assets/bower_components/MathJax/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff",
-    "_site/assets/bower_components/MathJax/es5/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff",
-    "_site/assets/bower_components/MathJax/es5/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff",
-    "_site/assets/bower_components/MathJax/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff",
-    "_site/assets/bower_components/MathJax/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff",
-    "_site/assets/bower_components/MathJax/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff",
-    "_site/assets/bower_components/MathJax/es5/output/chtml/fonts/woff-v2/MathJax_Math-Regular.woff",
-    "assets/img/ttrpg/arkil_potrait.jpg@0,5x.jpg",
-    "assets/img/ttrpg/New Bitmap image.bmp",
-    "assets/img/ttrpg/arkil_potrait.jpg",
-    "assets/img/ttrpg/arkil-potrait.jpg",
-    "_site/blog/ttrpg/2025-12-10-wildfire-druid/index.html",
-    "_site/assets/img/ttrpg/arkil-potrait.png",
+    "_projects/url-reputation-playbook.md",
+    "_projects/macos-security-telemetry-splunk.md",
+    "_posts/2025-11-05-newyork-coffee-shops.md",
+    "Untitled 3.md",
+    "_site/blog/blog/travel/vegan/2025-11-05-newyork-coffee-shops/index.html",
+    "_site/blog/blog/travel/vegan/2025-11-05-newyork-coffee-shops",
+    "_site/blog/blog/travel/vegan",
+    "_site/blog/blog/travel",
+    "_site/assets/img/posts/matcha.webp",
+    "_site/assets/bower_components/MathJax/es5/input/tex/extensions/all-packages.js",
+    "_site/Untitled/index.html",
+    "_site/Untitled",
+    "_site/Untitled 2/index.html",
+    "_site/Untitled 2",
+    "_site/Untitled 1/index.html",
+    "assets/img/posts/matcha.webp",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "Untitled.md",
     "_posts/2025-10-12-wildfire-druid.md",
-    "assets/img/ttrpg/arkil-potrait.png",
-    "assets/img.md",
-    "_projects/url-reputation-playbook.md"
+    "_posts/2025-10-11-wildmagic-barbarian.md",
+    "_site/assets/img/ttrpg/wildfire-tiefling/bba3fea4-73bc-49f6-b750-13047dfbce4c-md.jpeg",
+    "_site/assets/img/ttrpg/wildfire-tiefling/arkil_face_thumbnail_resize.png",
+    "_site/assets/img/ttrpg/wildfire-tiefling/arkil_face_thumbnail.png",
+    "_site/assets/img/ttrpg/wildfire-tiefling/arkil_face_thumbnail - Copy.png",
+    "_site/assets/img/ttrpg/wildfire-tiefling/arkil_800.png",
+    "_site/assets/img/ttrpg/wildfire-tiefling/arkil_400.png",
+    "_site/assets/img/ttrpg/wildfire-tiefling/arkil_200.png",
+    "_site/assets/img/ttrpg/wildfire-tiefling/arkil_1200.png",
+    "assets/img.md"
   ]
 }
