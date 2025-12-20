@@ -151,15 +151,21 @@ In the 2024 rules, Wild Shape:
 - You can only know a **limited set of forms**, chosen from eligible beasts and replaceable after a Long Rest. :contentReference[oaicite:8]{index=8}
 - You gain **additional uses** of Wild Shape as you level (2 uses at level 2, 3 at level 6, 4 at level 17). :contentReference[oaicite:9]{index=9}
 
-### 🐾 Wild Companion
+### Wild Companion
 Druids can now expend a Wild Shape use or a spell slot to cast *Find Familiar*, summoning a fey animal companion that lasts until long rest. :contentReference[oaicite:10]{index=10}
 
-### 🔄 Wild Resurgence
+### Wild Resurgence
 You can spend a spell slot to regain a use of Wild Shape, or vice-versa (exchange one use to recover a 1st-level slot on a long rest). :contentReference[oaicite:11]{index=11}
 
 ---
 
 ## Updated Build — 2024 Rules (Level 3)
+
+Even though the wildfire druid wasn't published in the 2024 players handbook or any of the most recent book releases, the 2024 Players Handbook and Ruleset is backwards compatible and offers a number of ways to continue playing this and any other subclassess used in 2014. The players handbook offers some standard ways to convert the subclasses but thankfully the interent is full of ready to use guides on how to use every official subclass that has ever been published.
+
+I'm using this particular guide for the Wildfire druid because it udpates everything to make it 2024 compatible but also adds some **much** needed quality of life improvements to the subclass to make it more in-line with the new 2024 subclass versions.
+
+https://docs.google.com/document/d/1b-8jLkYuOxQJIEyUHK4yAK8FBpwaSpgROjp7Tmb6hwg/edit?tab=t.0
 
 ### Class Progression
 **Druid 3 — Circle of Wildfire**
@@ -180,7 +186,7 @@ You can spend a spell slot to regain a use of Wild Shape, or vice-versa (exchang
 
 ## Wild Shape Options
 At level 3 in 2024:
-- You choose **four known forms** (such as Wolf, Giant Badger, Panther, etc.) that you can use as Wild Shape forms. :contentReference[oaicite:12]{index=12}
+- You choose **four known forms** (such as Wolf, Giant Badger, Panther, etc.) that you can use as Wild Shape forms.
 
 This gives you tactical versatility without scanning the entire Monster Manual.
 
@@ -189,7 +195,7 @@ This gives you tactical versatility without scanning the entire Monster Manual.
 ## Key Abilities
 
 ### Wild Shape (Bonus Action)
-- Not an action economy penalty anymore — you can cast a spell and then Wild Shape in the same turn in many cases. :contentReference[oaicite:13]{index=13}  
+- Not an action economy penalty anymore — you can cast a spell and then Wild Shape in the same turn in many cases.  
 - Temporary HP equal to druid level helps keep you in the fight.
 
 ### Wild Companion (Familiar)
@@ -223,8 +229,8 @@ This gives you tactical versatility without scanning the entire Monster Manual.
 
 ## 2024 Playstyle Notes
 
-- Wild Shape is **less about taking over combat** and more about **strategic utility** — quick repositioning, scouting, and battlefield repositioning. :contentReference[oaicite:14]{index=14}  
-- You now have more frequent uses and **bonus action conversion**, which makes this build far more dynamic than the 2014 Wild Shape mechanic. :contentReference[oaicite:15]{index=15}  
+- Wild Shape is **less about taking over combat** and more about **strategic utility** — quick repositioning, scouting, and battlefield repositioning.   
+- You now have more frequent uses and **bonus action conversion**, which makes this build far more dynamic than the 2014 Wild Shape mechanic.
 - Wild Companion adds **reliable support utility** without costing precious slots.
 
 ---

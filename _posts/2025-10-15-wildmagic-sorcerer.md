@@ -23,7 +23,7 @@ Sandbox campaigns are both freeing and challenging. Without extensive world lore
 
 ![Skrik - Goblin Wildmagic Sorcerer](https://github.com/sparks-cam/sparks-cam.github.io/releases/download/assets-v1/goblin_wild_magic.webp)
 
-## 🌀 Character Overview
+## Character Overview
 
 **Name**: Skrik “Brightbang”  
 **Race / Ancestry**: Goblin  

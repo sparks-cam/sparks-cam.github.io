@@ -74,6 +74,13 @@ The result is a **single actionable summary** inside the case.
 
 ---
 
+## Code Snippets
+
+```python
+
+
+```
+
 ## Screenshots
 
 **Initial Input & Decision Path**
