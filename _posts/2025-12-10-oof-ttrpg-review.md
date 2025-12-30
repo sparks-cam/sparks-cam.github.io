@@ -107,27 +107,3 @@ Archetypes set clear identity markers for characters. They provide some narrativ
 
 
 ---
-
-## ⚠️ Where It Falls Short
-
-- Weakness 1
-- Weakness 2
-
----
-
-## 🎲 Table Experience
-
-How it *actually* felt in play.
-
----
-
-## 🧩 Who Should Use This
-
-Player types, GM styles, campaign tones.
-
----
-
-## 🧾 Final Thoughts
-
-Would you recommend it?  
-Would you use it again?
