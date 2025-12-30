@@ -1,20 +1,20 @@
 ---
 # Featured tags need to have either the `list` or `grid` layout (PRO only).
-layout: grid
+layout: list
 
 # The title of the tag's page.
-title: TTRPG
+title: Rules
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: ttrpg
+slug: ttrpg-rules
 
 # Permalink
 
-permalink: /ttrpg/all/
+permalink: /ttrpg/rules/
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  Characters, backstories, and tabletop campaign logs.
+   House rules, subsystems, reference notes, and rule writeups.
 
 # (Optional) You can disable grouping posts by date.
 no_groups: true

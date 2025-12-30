@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a2a8d9cf4c1b6284",
+        "id": "b17f4aedbac42be0",
         "type": "tabs",
         "children": [
           {
-            "id": "f7db7ce63580f7cd",
+            "id": "cf0f20efae767cb4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2025-12-10-oof-ttrpg-review.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2025-12-10-oof-ttrpg-review"
             }
           }
         ]
@@ -180,8 +184,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "f7db7ce63580f7cd",
+  "active": "cf0f20efae767cb4",
   "lastOpenFiles": [
+    "_site/blog/ttrpg/rules/d&d/homebrew/2025-12-23-community-subclass-conversion-2024-rules/index.html",
+    "_site/blog/ttrpg/rules/d&d/homebrew/2025-12-23-community-subclass-conversion-2024-rules",
+    "_site/blog/ttrpg/rules/d&d/homebrew",
+    "_site/blog/ttrpg/rules/d&d",
+    "_site/blog/ttrpg/rules",
+    "_posts/2025-12-23-community-subclass-conversion-2024-rules.md",
+    "_posts/2025-12-23community-subclass-conversion-2024-rules.md",
+    "_posts/2025-12-community-subclass-conversion-2024-rules.md",
+    "_posts/2025-12-26-2014-2014-subclass-conversion-rules.md",
+    "_posts/2025-12-10-oof-ttrpg-review.md",
+    "_posts/2025-12-10-oof-ttrpg-review 1.md",
+    "_site/blog/ttrpg/ttrpg-reviews/2025-12-10-oof-ttrpg-review/index.html",
+    "_site/blog/ttrpg/ttrpg-reviews/2025-12-10-oof-ttrpg-review",
+    "_site/blog/ttrpg/ttrpg-reviews",
     "_templates/project_milestones_template.md",
     "_templates/project_milestones_.md",
     "_templates/p",
@@ -189,13 +207,6 @@
     "_templates",
     "_upskill_template",
     "assets/img/sidebar-bg.webp",
-    "_site/projects/macos-security-telemetry-splunk/index.html",
-    "_site/projects/macos-security-telemetry-splunk",
-    "_site/projects/url-reputation-playbook/index.html",
-    "_site/projects/url-reputation-playbook",
-    "_site/blog/ttrpg/2025-12-15-wildmagic-sorcerer/index.html",
-    "_site/blog/ttrpg/2025-12-15-wildmagic-sorcerer",
-    "_site/blog/ttrpg/2025-12-10-wildfire-druid/index.html",
     "_site/assets/img/swipe.svg",
     "_site/assets/img/sidebar-bg.jpg",
     "_site/assets/img/logo_backup.png",

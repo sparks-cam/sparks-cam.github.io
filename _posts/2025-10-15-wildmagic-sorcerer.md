@@ -2,7 +2,7 @@
 layout: post
 title: D&D Sandbox Character — Wild Magic Sorcerer / Goblin
 date: 2025-12-15
-categories: ttrpg
+categories: [ttrpg,ttrpg-characters]
 tags: [Character, Build, Sorcerer]
 image:
   path: https://github.com/sparks-cam/sparks-cam.github.io/releases/download/assets-v1/goblin_wild_magic.webp
@@ -21,45 +21,55 @@ Sandbox campaigns are both freeing and challenging. Without extensive world lore
 
 ---
 
-![Skrik - Goblin Wildmagic Sorcerer](https://github.com/sparks-cam/sparks-cam.github.io/releases/download/assets-v1/goblin_wild_magic.webp)
+![Skez - Goblin Wildmagic Sorcerer](https://github.com/sparks-cam/sparks-cam.github.io/releases/download/assets-v1/goblin_wild_magic.webp)
+
+*A fast-talking goblin con artist whose fake magic occasionally becomes terrifyingly real—and who considers unexplored ruins the safest place to experiment.*
 
 ## Character Overview
 
-**Name**: Skrik “Brightbang”  
+**Name**: Skez "Boomwhisper" Muzzlewort  
 **Race / Ancestry**: Goblin  
 **Class / Subclass**: Sorcerer — Wild Magic  
 **Alignment / Motivation**: Chaotic Neutral (impulsive, curious, self-preserving)  
 **Pronouns**: He/Him  
 
-I’ve always enjoyed the class fantasy of the Sorcerer as someone who doesn’t *learn* magic but instead survives it. Wild Magic Sorcerers in particular embody uncontrolled power—magic that reacts to emotion, stress, and instinct rather than careful planning.
+I’ve always enjoyed the class fantasy of the Sorcerer as someone who doesn’t *learn* magic but instead survives it. Wild Magic Sorcerers in particular embody uncontrolled power magic that reacts to emotion, stress, and instinct rather than careful planning.
 
 Pairing that with a Goblin felt like a natural fit. Goblins already exist on the margins of society, often underestimated or treated as disposable. Giving one volatile arcane power creates a character who is unpredictable, dangerous, and constantly struggling to keep control of something that may eventually consume him.
 
-Skrik does not believe he is special or chosen. He believes something went wrong—and now he has to live with it.
+Skez does not believe he is special or chosen. He believes something went wrong—and now he has to live with it.
 
 ---
 
 ## Character Backstory
 
-Skrik was born into a small scavenger-clan that lived beneath the ruins of an ancient arcane outpost. Most goblins avoided the deepest tunnels, where the stone glowed faintly and metal tools warped if left too long.
+Skez Muzzlewort known to most as “Boomwhisper” was born in the shanty warrens beneath a sprawling metropolis, where goblins survived by scavenging what fell through the cracks of polite society. Life below was simple: if something exploded, it was either a disaster… or a success. Skez had a strange talent for making it the latter.
 
-Skrik fell into those tunnels by accident.
+He wasn’t particularly strong, brave, or stealthy, but he was clever and cursed (or blessed) with ideas that tended to end in fire, smoke, or screaming. Alchemical accidents followed him like a shadow. Sometimes they were intentional. Sometimes not. His peers called him a visionary. The city guard called him a recurring problem.
 
-He doesn’t remember the fall itself—only the light. A searing, impossible brightness that burned behind his eyes and filled his chest. When the clan eventually found him, he was alive, laughing, and crackling with energy.
+Eventually, Skez discovered something even more powerful than explosions: lying convincingly.
 
-Strange things began happening soon after. Fires sparked without flint. Objects drifted when Skrik panicked. Once, during an argument, a rival goblin was suddenly surrounded by harmless illusions of butterflies instead of the expected explosion.
+Reinventing himself as a traveling “Miracle Maker,” Skez began selling Boomwhisper’s Guaranteed Lucky Charms trinkets, tokens, and talismans cobbled together from scrap and superstition. Most were harmless fakes enhanced with cheap illusions. A few… weren’t.
 
-The clan shaman declared Skrik *boom-touched* and demanded his exile. Keeping him meant risking the entire clan.
+Every so often, when Skez leaned just a little too hard into a performance, reality bent. A charm actually worked. A blessing manifested. A fake miracle became real. Skez never knew why only that when things went wrong, they went spectacularly wrong.
 
-Since then, Skrik has survived by attaching himself to groups stronger and more capable than himself—mercenaries, explorers, and adventurers. He offers raw power, enthusiasm, and a willingness to do dangerous things first.
+The turning point came when one of his “miracles” attracted too much attention. Rumors spread. Some people believed he was chosen by chaos itself. Others wanted revenge, refunds, or his head. Skez did the only sensible thing:
 
-He keeps moving because he’s afraid that if he ever stops, whatever awakened inside him will finally catch up.
+He left.
+
+Now Skez wanders the frontier, ruins, and unclaimed wilds—places where miracles are harder to disprove and explosions are less likely to bother anyone important. He’s joined (or regularly works with) adventurers and guilds not out of heroism, but because dangerous places are perfect cover for unpredictable magic.
+
+Out there, if something goes wrong, it’s just “another dungeon incident.”
+
+Skez claims he’s searching for answers: ancient ruins, lost magic, anything that might explain why chaos answers him. The truth is simpler he’s curious, ambitious, and convinced that if he survives long enough, he’ll either figure it out…
+
+…or become too powerful for anyone to complain.
 
 ---
 
 ## Campaign Motivations
 
-Skrik’s motivations fit cleanly into a sandbox campaign:
+Skez’s motivations fit cleanly into a sandbox campaign:
 
 - **Gold means safety**
 - **Power means control**
@@ -78,16 +88,7 @@ He is drawn to ruins, magical anomalies, and unstable places not out of bravery,
 - Treats party members as friends, shields, and occasionally test subjects
 - Feels genuine guilt when his magic harms allies
 
-Despite the chaos, Skrik wants to belong somewhere.
-
----
-
-## Roleplay Hooks
-
-- Keeps a journal documenting every magical surge
-- Believes his magic has a personality and sometimes argues with it
-- Actively seeks items or spells that might stabilize his power
-- Fears deep silence, glowing stone, and narrow tunnels
+Despite the chaos, skez wants to belong somewhere.
 
 ---
 
@@ -121,23 +122,14 @@ Despite the chaos, Skrik wants to belong somewhere.
 - Charisma +2 (18 → 20)
 - War Caster or Lucky
 
-### Spell Theme
-Unstable force, misfires, battlefield disruption
-
-**Key Spells**
-- Cantrips: Fire Bolt, Prestidigitation, Mage Hand
-- 1st: Chaos Bolt, Shield
-- 2nd: Mirror Image, Misty Step
-- 3rd: Fireball, Counterspell
-
-### Combat Role
-- Mobile blaster
-- High-risk, high-reward spellcaster
-- Unpredictable battlefield presence
 
 ---
 
 ## 2024 Rules Build (PHB 2024)
+
+> **Rules Reference:**  
+> This character uses the updated Wild Magic Sorcerer subclass.  
+> See: [Wild Magic Sorcerer — PerfectlyCircularSeal (2024)](/_posts/2025-12-23-community-subclass-conversion-2024-rules.md)
 
 ### Ancestry: Goblin
 - Ability scores assigned freely (+2 CHA, +1 CON recommended)
@@ -163,15 +155,10 @@ Unstable force, misfires, battlefield disruption
 - Level 1: Magic Initiate (Wizard) or Alert
 - Later: War Caster, Resilient (CON)
 
-### Combat Role
-- Arcane striker with volatility
-- Mobile burst damage dealer
-- Party wildcard with improved reliability
-
 ---
 
 ## Final Thoughts
 
-Skrik is designed for low-lore, high-freedom campaigns. He works equally well as comic relief or as a tragic figure shaped by forces beyond his understanding.
+Skez is designed for low-lore, high-freedom campaigns. He works equally well as comic relief or as a tragic figure shaped by forces beyond his understanding.
 
 Most importantly, he has a clear reason to adventure, a reason to stay with a party, and enough instability for the world to meaningfully react to his presence.

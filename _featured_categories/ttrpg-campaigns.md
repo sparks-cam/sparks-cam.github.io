@@ -3,18 +3,18 @@
 layout: grid
 
 # The title of the tag's page.
-title: TTRPG
+title: Campaigns
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: ttrpg
+slug: ttrpg-campaigns
 
 # Permalink
 
-permalink: /ttrpg/all/
+permalink: /ttrpg/campaigns/
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  Characters, backstories, and tabletop campaign logs.
+  Campaign themes, guides, factions, regions, and GM tools.
 
 # (Optional) You can disable grouping posts by date.
 no_groups: true

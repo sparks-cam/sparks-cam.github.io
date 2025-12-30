@@ -2,7 +2,7 @@
 layout: post
 title: D&D Sandbox Character — Wildfire Druid / Tiefling
 date: 2025-12-10
-categories: ttrpg
+categories: [ttrpg,ttrpg-characters]
 tags: [Character, Build, Druid]
 image:
   path: https://github.com/sparks-cam/sparks-cam.github.io/releases/download/assets-v1/arkil_face_thumbnail_resize.webp
@@ -145,17 +145,17 @@ Both builds assume **Level 3** starting play.
 
 ### Wild Shape (Revised)
 In the 2024 rules, Wild Shape:
-- Uses a **bonus action** to assume beast form (not a full action). :contentReference[oaicite:5]{index=5}
-- Grants **temporary hit points** equal to your Druid level instead of replacing your HP. :contentReference[oaicite:6]{index=6}
-- You retain your personality, memories, ability to speak, and many class features while in Wild Shape. :contentReference[oaicite:7]{index=7}
-- You can only know a **limited set of forms**, chosen from eligible beasts and replaceable after a Long Rest. :contentReference[oaicite:8]{index=8}
-- You gain **additional uses** of Wild Shape as you level (2 uses at level 2, 3 at level 6, 4 at level 17). :contentReference[oaicite:9]{index=9}
+- Uses a **bonus action** to assume beast form (not a full action).
+- Grants **temporary hit points** equal to your Druid level instead of replacing your HP.
+- You retain your personality, memories, ability to speak, and many class features while in Wild Shape. 
+- You can only know a **limited set of forms**, chosen from eligible beasts and replaceable after a Long Rest.
+- You gain **additional uses** of Wild Shape as you level (2 uses at level 2, 3 at level 6, 4 at level 17). 
 
 ### Wild Companion
-Druids can now expend a Wild Shape use or a spell slot to cast *Find Familiar*, summoning a fey animal companion that lasts until long rest. :contentReference[oaicite:10]{index=10}
+Druids can now expend a Wild Shape use or a spell slot to cast *Find Familiar*, summoning a fey animal companion that lasts until long rest.
 
 ### Wild Resurgence
-You can spend a spell slot to regain a use of Wild Shape, or vice-versa (exchange one use to recover a 1st-level slot on a long rest). :contentReference[oaicite:11]{index=11}
+You can spend a spell slot to regain a use of Wild Shape, or vice-versa (exchange one use to recover a 1st-level slot on a long rest). 
 
 ---
 

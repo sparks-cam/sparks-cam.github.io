@@ -1,0 +1,31 @@
+- title: Characters
+  url: /ttrpg/characters/
+  description: Character sheets, builds, backstories, and portraits.
+  image:
+    path: https://github.com/sparks-cam/sparks-cam.github.io/releases/download/assets-v1/ttrpg_character_header.webp
+    thumbnail: https://github.com/sparks-cam/sparks-cam.github.io/releases/download/assets-v1/ttrpg_character_header.webp
+    ratio: auto
+
+- title: Campaigns
+  url: /ttrpg/campaigns/
+  description: Campaign themes, guides, regions, factions, and GM tools.
+  image:
+    path: https://github.com/sparks-cam/sparks-cam.github.io/releases/download/assets-v1/ttrpg_campaign_header.webp
+    thumbnail: https://github.com/sparks-cam/sparks-cam.github.io/releases/download/assets-v1/ttrpg_campaign_header.webp
+    ratio: auto
+
+- title: Rules
+  url: /ttrpg/rules/
+  description: House rules, subsystems, and reference notes.
+  image:
+    path: https://github.com/sparks-cam/sparks-cam.github.io/releases/download/assets-v1/ttrpg_rules_header.webp
+    thumbnail: https://github.com/sparks-cam/sparks-cam.github.io/releases/download/assets-v1/ttrpg_rules_header.webp
+    ratio: auto
+
+- title: Reviews
+  url: /ttrpg/reviews/
+  description: Reviews of games, modules, subsystems, and tools.
+  image:
+    path: https://github.com/sparks-cam/sparks-cam.github.io/releases/download/assets-v1/ttrpg_reviews_header.webp
+    thumbnail: https://github.com/sparks-cam/sparks-cam.github.io/releases/download/assets-v1/ttrpg_reviews_header.webp
+    ratio: auto

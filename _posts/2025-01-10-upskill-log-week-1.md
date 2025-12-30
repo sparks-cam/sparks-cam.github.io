@@ -2,7 +2,7 @@
 layout: post
 title: "Upskill Journey — <Topic / Week>"
 subtitle: "Building durable security skills without burnout"
-date: YYYY-MM-DD
+date: 2025-01-10
 categories: [cybersecurity, upskill-journey]
 tags: [incident-response, cloud-security, learning-log]
 description: "A practical reflection on what I studied, what I applied, and how it strengthens my long-term cybersecurity skill set."

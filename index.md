@@ -15,8 +15,6 @@ Here you’ll find:
 - **Opinions** on where security is headed  
 - And a healthy amount of **TTRPG chaos** — characters, backstories, and campaign notes
 
-<!--author-->
-
 ---
 
 ## Cybersecurity & Cloud Security
@@ -31,18 +29,6 @@ Now I’m expanding deeper into:
 
 I’m using this space to document what I’m learning, what’s working, and where I still feel like a beginner.
 
-<!--posts-->
-
----
-
-##  Featured Project
-
-Here’s one of the projects I’m particularly proud of:
-
-<!--projects-->
-
-You’ll find more under the **Projects** section in the sidebar.
-
 ---
 
 ##  TTRPG & Storytelling
@@ -53,7 +39,7 @@ I use this site to:
 
 - Share **characters and backstories**
 - Track **campaign lore** and world-building
-- Keep long-running **West Marches-style** ideas organized
+- Keep long-running **campaign** ideas organized
 
 ---
 
