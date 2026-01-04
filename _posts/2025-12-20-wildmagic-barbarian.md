@@ -113,7 +113,7 @@ Boomgrave is jovial, unpredictable, and unsettlingly confident that things will 
 
 > **Rules Reference:**  
 > This character uses the updated Wild Magic Barbarian subclass.  
-> See: [Path of Wild Magic — PerfectlyCircularSeal (2024)](/_posts/2025-12-23-community-subclass-conversion-2024-rules.md)
+> See: [Path of Wild Magic — PerfectlyCircularSeal (2024)](/2025-12-23-community-subclass-conversion-2024-rules.md)
 
 
 ---

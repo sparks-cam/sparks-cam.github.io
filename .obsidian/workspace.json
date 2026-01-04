@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-12-10-oof-ttrpg-review.md",
+                "file": "_posts/2025-10-12-wildfire-druid.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-10-oof-ttrpg-review"
+              "title": "2025-10-12-wildfire-druid"
             }
           }
         ]
@@ -186,6 +186,7 @@
   },
   "active": "cf0f20efae767cb4",
   "lastOpenFiles": [
+    "_posts/2025-12-10-oof-ttrpg-review.md",
     "_site/blog/ttrpg/rules/d&d/homebrew/2025-12-23-community-subclass-conversion-2024-rules/index.html",
     "_site/blog/ttrpg/rules/d&d/homebrew/2025-12-23-community-subclass-conversion-2024-rules",
     "_site/blog/ttrpg/rules/d&d/homebrew",
@@ -195,7 +196,6 @@
     "_posts/2025-12-23community-subclass-conversion-2024-rules.md",
     "_posts/2025-12-community-subclass-conversion-2024-rules.md",
     "_posts/2025-12-26-2014-2014-subclass-conversion-rules.md",
-    "_posts/2025-12-10-oof-ttrpg-review.md",
     "_posts/2025-12-10-oof-ttrpg-review 1.md",
     "_site/blog/ttrpg/ttrpg-reviews/2025-12-10-oof-ttrpg-review/index.html",
     "_site/blog/ttrpg/ttrpg-reviews/2025-12-10-oof-ttrpg-review",
@@ -205,7 +205,6 @@
     "_templates/p",
     "_templates/upskill_journey_template.md",
     "_templates",
-    "_upskill_template",
     "assets/img/sidebar-bg.webp",
     "_site/assets/img/swipe.svg",
     "_site/assets/img/sidebar-bg.jpg",

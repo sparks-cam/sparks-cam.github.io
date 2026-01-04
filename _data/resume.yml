@@ -1,95 +1,153 @@
-# If you have a `resume.json` file, copy it into `_data` and delete this file.
-# If you don't have a JSON Resume you can just edit this YAML file instead.
-# See also: <https://jsonresume.org/>.
+# Based on your Hydejack default resume.yml schema
+# (keeps JSON Resume field names: startDate/endDate, institution, etc.)
+
 basics:
   name: "Cameron Sparks"
-  label: "Cybersecurity Professional"
-  picture: "https://via.placeholder.com/240x240"
-  email: ""
-  phone: "(912) 555-4321"
+  label: "Cyber Security Engineer"
+  picture: "https://via.placeholder.com/240x240" # replace with your headshot URL later
+  email: "sparks.cam@gmail.com"
+  phone: "(816) 200-0415"
   website: "https://sparkscrafted.com"
   summary: >
-   Cybersecurity professional with **7+ years experience** specializing in **Incident Response**, **Threat Detection**, and **Security Automation** in high-stakes healthcare environments. Adept at rapidly triaging threats, designing scalable defense automation, and collaborating across IT, security, and clinical operations. Currently expanding expertise into **Cloud** and **AI-augmented defense** methodologies to stay ahead of rapidly evolving adversaries.
+    Cyber Security professional with experience in incident response, security automation,
+    threat detection, and risk communication across healthcare and enterprise environments.
   location:
-    address: "2712 Broadway St"
-    postalCode: "CA 94115"
+    address: ""
+    postalCode: ""
     city: "Kansas City"
     countryCode: "US"
     region: "Missouri"
   profiles:
-    - network: "Twitter"
-      username: "RHendricksCEO"
-      url: ""
     - network: "LinkedIn"
-      username: "Richard Hendricks"
-      url: ""
+      username: "cameronsparks"
+      url: "https://www.linkedin.com/in/cameronsparks/"
+
 work:
-  - company: "Pied Piper"
-    position: "CEO/President"
-    website: "https://piedpiper.com"
-    startDate: "2013-12-01"
-    endDate: ""
+  - company: "Children's Mercy Kansas City"
+    position: "Cyber Security Engineer"
+    website: ""
+    startDate: "2020-06-01"
+    endDate: "" # Present
+    summary: "Security automation, incident response, and organizational risk mitigation in a healthcare environment."
+    highlights:
+      - "Support security application development initiatives requiring innovation, automation, and integration."
+      - "Design and develop playbooks for automation and incident response activities."
+      - "Gather cybersecurity intelligence from internal systems/SIEM and external sources to identify organization-specific risks and threats."
+      - "Communicate security risks and solutions to leadership to mitigate risks to the business and technology partners."
+      - "Propose response recommendations/countermeasures to prevent, detect, or investigate evolving threats."
+
+  # --- Cerner (visually grouped, flat structure) ---
+  - company: "Cerner Corporation"
+    position: "Cyber Security Engineer"
+    website: ""
+    startDate: "2018-09-01"
+    endDate: "2020-06-01"
     summary: >
-      Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-      consistently fielded high Weisman Scores™ that are not merely competitive,
-      but approach the theoretical limit of lossless compression.
+      Progressive roles at Cerner Corporation (2015–2020) spanning incident response,
+      threat detection, vulnerability remediation, and production change implementation.
     highlights:
-      - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
-      - "Successfully won Techcrunch Disrupt"
-      - "Optimized an algorithm that holds the current world record for Weisman Scores"
-volunteer:
-  - organization: "CoderDojo"
-    position: "Teacher"
-    website: "https://coderdojo.com/"
-    startDate: "2012-01-01"
-    endDate: "2013-01-01"
-    summary: "Global movement of free coding clubs for young people."
+      - "Detected and analyzed emerging threats and determined creative countermeasures."
+      - "Assisted with development and training of new security technologies; translated technical data into actionable business information."
+      - "Completed incident response investigation requests and handled escalations for active incidents."
+      - "Researched trusted external intelligence sources to detect events of interest."
+      - "Assisted with malware and forensic analysis."
+
+  - company: "Cerner Corporation"
+    position: "Cyber Security Analyst"
+    website: ""
+    startDate: "2018-03-01"
+    endDate: "2018-09-01"
+    summary: ""
     highlights:
-      - "Awarded 'Teacher of the Month'"
+      - "Monitored and triaged security activity; implemented remediation plans to mitigate vulnerabilities."
+      - "Resolved and patched OS or software vulnerabilities."
+      - "Identified and analyzed potential security vulnerabilities and emerging threats."
+      - "Documented and contained security incidents detected on the network."
+      - "Executed incident response process when a security incident was declared."
+
+  - company: "Cerner Corporation"
+    position: "Change Implementation Analyst"
+    website: ""
+    startDate: "2016-09-01"
+    endDate: "2018-03-01"
+    summary: ""
+    highlights:
+      - "Configured solution functionality and components in production and non-production environments."
+      - "Gathered requirements and determined scope of work to estimate delivery effort and timelines."
+      - "Troubleshot and validated configurations to ensure successful implementation in client domains."
+
+  - company: "Cerner Corporation"
+    position: "Technical Solutions Analyst"
+    website: ""
+    startDate: "2015-06-01"
+    endDate: "2016-09-01"
+    summary: ""
+    highlights:
+      - "Performed troubleshooting investigations by gathering information, using troubleshooting tools, shadowing end users, and testing workflows."
+      - "Resolved solution-related service requests, incident resolutions, and application maintenance issues."
+      - "Provided troubleshooting support across applications and end-user workflows."
+
+  - company: "Exelon"
+    position: "Summer Intern"
+    website: ""
+    startDate: "2013-06-01"
+    endDate: "2014-08-01"
+    summary: ""
+    highlights:
+      - "Assisted Nuclear Real-Time Simulator Applications Group."
+      - "Tested viability of alternatives to the SWR (Work Request) system and provided web-based alternatives."
+      - "Performed database management procedures for the SWR system."
+      - "Facilitated NUMAC Windows 7 imaging."
+      - "Tested viability of NUMAC software on open-source systems."
+
+  - company: "Ball State University"
+    position: "ISOM Department Help Desk & Teaching Assistant"
+    website: ""
+    startDate: "2013-08-01"
+    endDate: "2014-05-01"
+    summary: ""
+    highlights:
+      - "Maintained and upgraded lab workstations."
+      - "Troubleshot department technology issues."
+      - "Accommodated faculty technology needs."
+      - "Served as a teaching assistant for ISOM classes."
+
 education:
-  - institution: "University of Oklahoma"
-    area: "Information Technology"
-    studyType: "Bachelor"
-    startDate: "2011-06-01"
-    endDate: "2014-01-01"
-    gpa: "4.0"
-    courses:
-      - "DB1101 - Basic SQL"
-      - "CS2011 - Java Introduction"
-awards:
-  - title: "Digital Compression Pioneer Award"
-    date: "2014-11-01"
-    awarder: "Techcrunch"
-    summary: "There is no spoon."
-publications:
-  - name: "Video compression for 3d media"
-    publisher: "Hooli"
-    releaseDate: "2014-10-01"
-    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-    summary: "Innovative middle-out compression algorithm that changes the way we store data."
+  - institution: "Ball State University"
+    area: "Management Information Systems"
+    studyType: "Bachelor of Science (B.S.)"
+    startDate: "2011-01-01"
+    endDate: "2015-01-01"
+    gpa: ""
+    courses: []
+
+certificates:
+  - name: "Certified Information Systems Security Professional (CISSP)"
+    date: "5/19/2021"
+    issuer: ""
+    url: "https://www.credly.com/badges/be793060-e35d-469d-8028-74c9fde3bd37/linked_in_profile"
+  - name: "Certified Cloud Security Professional (CCSP)"
+    date: "8/3/2022"
+    issuer: ""
+    url: "https://www.credly.com/badges/7751f6cf-6704-4e2b-91aa-9f5c0984f49c/linked_in_profile"
+    
 skills:
-  - name: "Web Development"
-    level: "Master"
+  - name: "Cybersecurity"
+    level: ""
     keywords:
+      - "Incident Response"
+      - "Security Automation"
+      - "Threat Detection"
+      - "Cybersecurity Intelligence"
+  - name: "Tools & Platforms"
+    level: ""
+    keywords:
+      - "Splunk"
+      - "SIEM"
+      - "Playbooks"
+  - name: "Professional"
+    level: ""
+    keywords:
+      - "Public Speaking"
+      - "Microsoft Office"
       - "HTML"
-      - "CSS"
-      - "Javascript"
-  - name: "Compression"
-    level: "Master"
-    keywords:
-      - "Mpeg"
-      - "MP4"
-      - "GIF"
-languages:
-  - language: "English"
-    fluency: "Native speaker"
-interests:
-  - name: "Wildlife"
-    keywords:
-      - "Ferrets"
-      - "Unicorns"
-references:
-  - name: "Erlich Bachman"
-    reference: >
-      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-      Company proved that he will be a valuable addition to any company.

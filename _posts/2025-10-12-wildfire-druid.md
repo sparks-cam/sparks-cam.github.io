@@ -83,7 +83,7 @@ Both builds assume **Level 3** starting play.
 
 ## Ability Scores (Point Buy)
 | Stat | Score |
-|-----|------|
+|-----------------|-----------------|
 | STR | 8 |
 | DEX | 14 |
 | CON | 14 |
@@ -172,7 +172,7 @@ https://docs.google.com/document/d/1b-8jLkYuOxQJIEyUHK4yAK8FBpwaSpgROjp7Tmb6hwg/
 
 ### Ability Scores
 | Stat | Score |
-|------|-------|
+|-----------------|-----------------|
 | STR  | 8 |
 | DEX  | 14 |
 | CON  | 14 |

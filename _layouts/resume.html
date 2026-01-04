@@ -18,12 +18,17 @@ layout: base
 {% assign basics = resume.basics %}
 {% assign no_third_column = page.no_third_column | default:site.hydejack.no_third_column | default:false %}
 
+{% assign certs = resume.certificates | default: resume.certifications %}
+{% assign projects = resume.projects | default: resume.project %}
+
+{% capture present_label %}Present{% endcapture %}
+
 <article
   id="resume"
   class="page {% unless nsd %}vcard h-card{% endunless %}"
   role="article"
   {% unless nsd %}vocab="http://schema.org/" typeof="Person" resource="#resume"{% endunless %}
-  >
+>
   {% include pro/resume/header.html %}
   {% include pro/resume/buttons.html %}
 
@@ -33,58 +38,157 @@ layout: base
   </div>
 
   <div class="columns {% unless no_third_column %}columns-break{% endunless %}">
-    {% assign l_col = page.left_column %}
-    {% assign r_col = page.right_column %}
-    {% unless l_col %}{% assign l_col = 'work,volunteer,education,awards,publications,references' | split:',' %}{% endunless %}
-    {% unless r_col %}{% assign r_col = 'languages,skills,interests' | split:',' %}{% endunless %}
+    {% unless page.left_column %}
+      {% assign page.left_column = 'work,volunteer,education,projects,awards,publications,references' | split:',' %}
+    {% endunless %}
+    {% unless page.right_column %}
+      {% assign page.right_column = 'certificates,languages,skills,interests' | split:',' %}
+    {% endunless %}
 
     <div class="column column-3-5">
-      {% for sec in l_col %}
+      {% for sec in page.left_column %}
         {% case sec %}
+
         {% when 'work' %}
           {% include pro/resume/work.html %}
+
         {% when 'volunteer' %}
           {% include pro/resume/volunteer.html %}
+
         {% when 'education' %}
-          {% include pro/resume/education.html %}
+        {% if resume.education %}
+        <section class="section">
+          <h2 class="section-title">Education</h2>
+          <div class="section-content">
+            {% for edu in resume.education %}
+            <section class="item">
+              <header class="item-header">
+                <h3 class="item-title">{{ edu.institution }}</h3>
+
+                {% if edu.startDate or edu.endDate %}
+                <div class="item-meta">
+                  {% if edu.startDate %}
+                    <time datetime="{{ edu.startDate }}">{{ edu.startDate | date: from_to_format }}</time>
+                  {% endif %}
+                  {% if edu.startDate and edu.endDate %} — {% endif %}
+                  {% if edu.endDate %}
+                    <time datetime="{{ edu.endDate }}">{{ edu.endDate | date: from_to_format }}</time>
+                  {% endif %}
+                </div>
+                {% endif %}
+              </header>
+
+              <p class="item-summary">
+                {{ edu.studyType }}{% if edu.area %}, {{ edu.area }}{% endif %}
+              </p>
+
+              {% if edu.courses and edu.courses.size > 0 %}
+              <ul class="item-highlights">
+                {% for c in edu.courses %}
+                  <li>{{ c }}</li>
+                {% endfor %}
+              </ul>
+              {% endif %}
+            </section>
+            {% endfor %}
+          </div>
+        </section>
+        {% endif %}
+
+        {% when 'projects' %}
+        {% if projects and projects.size > 0 %}
+        <section class="section">
+          <h2 class="section-title">Projects</h2>
+          <div class="section-content">
+            {% for p in projects %}
+            <section class="item">
+              <header class="item-header">
+                <h3 class="item-title">{{ p.name | default: "Project" }}</h3>
+
+                {% assign p_start = p.startDate | default: p.start %}
+                {% assign p_end = p.endDate | default: p.end %}
+
+                {% if p_start or p_end %}
+                <div class="item-meta">
+                  {% if p_start %}
+                    <time datetime="{{ p_start }}">{{ p_start | date: from_to_format }}</time>
+                  {% endif %}
+                  {% if p_start and p_end %} — {% endif %}
+                  {% if p_end %}
+                    <time datetime="{{ p_end }}">{{ p_end | date: from_to_format }}</time>
+                  {% else %}
+                    {% if p_start %}{{ present_label }}{% endif %}
+                  {% endif %}
+                </div>
+                {% endif %}
+              </header>
+
+              {% if p.description %}
+                <p class="item-summary">{{ p.description }}</p>
+              {% endif %}
+
+              {% if p.url %}
+                <p class="item-links"><a href="{{ p.url }}" rel="nofollow noopener">Link</a></p>
+              {% endif %}
+
+              {% if p.keywords and p.keywords.size > 0 %}
+                <p class="item-keywords">
+                  {% for k in p.keywords %}<span class="tag">{{ k }}</span>{% endfor %}
+                </p>
+              {% endif %}
+
+              {% if p.highlights and p.highlights.size > 0 %}
+                <ul class="item-highlights">
+                  {% for h in p.highlights %}<li>{{ h }}</li>{% endfor %}
+                </ul>
+              {% endif %}
+            </section>
+            {% endfor %}
+          </div>
+        </section>
+        {% endif %}
+
         {% when 'awards' %}
           {% include pro/resume/awards.html %}
+
         {% when 'publications' %}
           {% include pro/resume/publications.html %}
+
         {% when 'references' %}
           {% include pro/resume/references.html %}
-        {% when 'languages' %}
-          {% include pro/resume/languages.html %}
-        {% when 'skills' %}
-          {% include pro/resume/skills.html %}
-        {% when 'interests' %}
-          {% include pro/resume/interests.html %}
-        {% else %}
+
         {% endcase %}
       {% endfor %}
     </div>
+
     <div class="column column-2-5">
-      {% for sec in r_col %}
+      {% for sec in page.right_column %}
         {% case sec %}
-        {% when 'work' %}
-          {% include pro/resume/work.html %}
-        {% when 'volunteer' %}
-          {% include pro/resume/volunteer.html %}
-        {% when 'education' %}
-          {% include pro/resume/education.html %}
-        {% when 'awards' %}
-          {% include pro/resume/awards.html %}
-        {% when 'publications' %}
-          {% include pro/resume/publications.html %}
-        {% when 'references' %}
-          {% include pro/resume/references.html %}
+
+        {% when 'certificates' %}
+        {% if certs and certs.size > 0 %}
+        <section class="section">
+          <h2 class="section-title">Certifications</h2>
+          <div class="section-content">
+            <ul class="item-highlights">
+              {% for c in certs %}
+                {% assign cname = c.name | default: c %}
+                {% if cname %}<li>{{ cname }}</li>{% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+        </section>
+        {% endif %}
+
         {% when 'languages' %}
           {% include pro/resume/languages.html %}
+
         {% when 'skills' %}
           {% include pro/resume/skills.html %}
+
         {% when 'interests' %}
           {% include pro/resume/interests.html %}
-        {% else %}
+
         {% endcase %}
       {% endfor %}
     </div>

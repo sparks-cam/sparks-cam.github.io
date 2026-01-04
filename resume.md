@@ -1,6 +1,6 @@
 ---
 layout: resume
-title: Résumé*
+title: Résumé
 description: >
   "Cybersecurity Engineer Specializing in Incident Response & Cloud Security"
 hide_description: true
@@ -12,10 +12,12 @@ left_column:
   - awards
   - publications
   - references
+  - projects
 right_column:
   - languages
   - skills
   - interests
+  - certificates
 no_language_icons: false
 no_skill_icons: false
 buttons:

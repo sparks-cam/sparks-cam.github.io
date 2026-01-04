@@ -1,9 +1,11 @@
 ---
 title: "Using a Community Doc to Update 2014 Subclasses for the 2024 Rules"
 description: "How I handle legacy subclasses in the 2024 ruleset without reinventing the wheel."
-categories: [ttrpg, rules]
+categories: [ttrpg, rules, ttrpg-rules]
 tags: [dnd2024, dnd2014, subclasses, rules, homebrew]
 ---
+
+### Community Update 2014 Classes to 2024 Rules. 
 
 ## Why I Started Using This
 
