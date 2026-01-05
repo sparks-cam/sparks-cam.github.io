@@ -18,11 +18,11 @@ links:
 
 ## About This Project
 
-As a cybersecurity engineer working in Incident Response at a children’s hospital, repetitive enrichment tasks — especially around suspicious URLs — consumed a surprising amount of analyst time. I built this Splunk SOAR playbook to **reduce alert fatigue**, **speed up decision-making**, and **increase investigation consistency** across our SOC.
+In my experience when it comes to IR, repetitive enrichment tasks especially around suspicious URLs consumed a surprising amount of time. I built this Splunk SOAR playbook to **reduce alert fatigue**, **speed up decision-making**, and **increase investigation consistency** across our SOC and our MSSP.
 
 This playbook automatically detonates URLs against multiple internal and external reputation sources, normalizes the results, and **recommends next steps** aligned to our security policies.
 
-> **Impact:** Reduced manual URL triage time from ~6 minutes per IOC to < 45 seconds, while improving evidence quality in cases.
+> **Impact:** Reduced manual URL triage time while improving evidence quality in cases.
 
 ---
 
@@ -34,10 +34,6 @@ When analysts are processing dozens or hundreds of alerts per shift:
 - Results may vary based on human interpretation  
 - Analyst notes often lack standardized context  
 - Adversaries move faster than humans can click
-
-I wanted to build something that felt like:
-
-> “Sysmon logic for URL triage — secure defaults, fast decisions, consistent outcomes.”
 
 ---
 
@@ -81,7 +77,7 @@ This design keeps everything **modular** (each enrichment writes its own note), 
 
 ## Code Snippets
 
-Below are trimmed, portfolio-friendly excerpts from the sanitized playbook code. They show the *actual* SOAR patterns used: decision gating, fan-out enrichment, consistent markdown notes, and a final correlated verdict.
+Below are trimmed excerpts from the sanitized playbook code. They show the *actual* SOAR patterns used: decision gating, fan-out enrichment, consistent markdown notes, and a final correlated verdict.
 
 ### 1) Sanitized assets/config (safe to share)
 
