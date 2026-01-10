@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b17f4aedbac42be0",
+        "id": "226a15a6c94bc162",
         "type": "tabs",
         "children": [
           {
-            "id": "cf0f20efae767cb4",
+            "id": "18a294c0b89074d7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2025-10-12-wildfire-druid.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-10-12-wildfire-druid"
+              "title": "New tab"
             }
           }
         ]
@@ -184,8 +180,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "cf0f20efae767cb4",
+  "active": "18a294c0b89074d7",
   "lastOpenFiles": [
+    "_posts/2025-01-07-ai-music.md",
+    "_posts/Untitled.md",
+    "_posts/2025-10-12-wildfire-druid.md",
+    "_site/assets/img/music_production_two.webp",
+    "_site/assets/img/music_production.webp",
+    "assets/img/music_production.webp",
+    "assets/img/music_production_two.webp",
+    "_site/assets/bower_components/MathJax/es5/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff",
     "_posts/2025-12-10-oof-ttrpg-review.md",
     "_site/blog/ttrpg/rules/d&d/homebrew/2025-12-23-community-subclass-conversion-2024-rules/index.html",
     "_site/blog/ttrpg/rules/d&d/homebrew/2025-12-23-community-subclass-conversion-2024-rules",
@@ -204,17 +208,12 @@
     "_templates/project_milestones_.md",
     "_templates/p",
     "_templates/upskill_journey_template.md",
-    "_templates",
     "assets/img/sidebar-bg.webp",
     "_site/assets/img/swipe.svg",
     "_site/assets/img/sidebar-bg.jpg",
     "_site/assets/img/logo_backup.png",
     "_site/assets/img/logo.png",
     "_site/assets/icons/icon-96x96.png",
-    "_site/assets/icons/icon-72x72.png",
-    "_site/assets/icons/icon-512x512.png",
-    "_site/assets/icons/icon-384x384.png",
-    "_site/assets/icons/icon-192x192.png",
     "_projects/url-reputation-playbook.md",
     "_projects/macos-security-telemetry-splunk.md",
     "_posts/2025-11-05-newyork-coffee-shops.md",
@@ -222,7 +221,6 @@
     "Untitled 2.md",
     "Untitled 1.md",
     "Untitled.md",
-    "_posts/2025-10-12-wildfire-druid.md",
     "_posts/2025-10-11-wildmagic-barbarian.md",
     "assets/img.md"
   ]

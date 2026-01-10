@@ -6,53 +6,73 @@ sitemap: false
 
 ## Welcome
 
-I’m Cameron — a cybersecurity engineer working in Incident Response at a children’s hospital, and this site is where I **learn out loud**.
+Hi, I’m Cameron.
 
-Here you’ll find:
+I work in cybersecurity, mostly in Incident Response and SOC work.  
+This site is where I keep notes, projects, and thoughts as I learn things.
 
-- My **Cybersecurity Upskill Journey** into cloud and AI-assisted defense  
-- **Projects** I’m building or shipping  
-- **Opinions** on where security is headed  
-- And a healthy amount of **TTRPG chaos** — characters, backstories, and campaign notes
+It’s not meant to be polished. It’s here so I can keep track of what I’m working on and what I’ve already learned.
 
 ---
 
-## Cybersecurity & Cloud Security
+## Security, Cloud, and Automation
 
-I’ve spent the last several years on the front lines of SOC and Incident Response — dealing with real-world alerts that hit real people and real systems.
+My day job lives in IR. Alerts, investigations, false positives, automation, tooling and the occasional real incident.
 
-Now I’m expanding deeper into:
+Lately I’ve been spending more time on:
 
-- **Cloud security** (Azure / AWS)
-- **Security automation** (SOAR, scripted workflows)
-- **AI-augmented detection & response**
+- Cloud security in AWS and Azure
+- SOAR and security automation
+- Figuring out how AI fits into security work without treating it like magic
 
-I’m using this space to document what I’m learning, what’s working, and where I still feel like a beginner.
+This site is part of my ongoing upskilling. I use it to document what I’m learning as I go, especially the parts that don’t immediately click.
 
----
-
-##  TTRPG & Storytelling
-
-When I’m not thinking about attacker TTPs, I’m thinking about goblins, gods, and weird frontier worlds.
-
-I use this site to:
-
-- Share **characters and backstories**
-- Track **campaign lore** and world-building
-- Keep long-running **campaign** ideas organized
+If you’re an employer reading this, the way I write here is pretty close to how I think on the job.
 
 ---
 
-## Life, Family & Everything Else
+## Projects
 
-I’m a partner, parent, and pet wrangler on top of being a security engineer.
+Anything I build that feels useful ends up here.
 
-You’ll also see posts about:
+That includes:
 
-- Balancing **IR shifts** with **toddler bedtimes**
-- Trying to live more intentionally with tech
-- Occasional life experiments & reflections
+- SOAR playbooks
+- Detection or triage experiments
+- Small scripts or tools
+- Write-ups explaining why something exists, not just what it does
+
+Some projects are clean. Some are rough. That’s intentional.
 
 ---
 
-Thanks for visiting — feel free to explore the sections in the sidebar, and follow along as I try to stay one step ahead of attackers *and* laundry.
+## TTRPG Stuff
+
+I also spend a lot of time on tabletop RPGs.
+
+This is where I keep:
+
+- Characters and backstories
+- Campaign notes
+- Rules experiments and homebrew ideas
+
+It’s creative space and a good break from security work.
+
+---
+
+## Life Notes
+
+I’m also a partner, a parent, and trying to keep everything balanced.
+
+You’ll occasionally see posts about:
+
+- Working on call while raising a toddler
+- Learning in small, realistic chunks
+- Trying to build a career without burning everything else down
+
+---
+
+If you’re just browsing, feel free to look around.  
+If you’re here for work reasons, the Projects section is probably the most relevant.
+
+This site is a work in progress, and so am I.
