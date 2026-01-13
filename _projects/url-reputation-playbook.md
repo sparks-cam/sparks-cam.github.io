@@ -1,106 +1,61 @@
 ---
 layout: project
-title: "SOAR URL Reputation Playbook"
-date: 2025-01-08
+title: "SOAR Reputation Playbooks (URL & IP)"
+date: 2026-01-07
 categories: [projects]
 tags: [SOAR, automation, threat-intel, splunk, python, incident-response]
 description: >
-  Splunk SOAR playbook that automates URL reputation investigations with modular enrichment, analyst guidance, and case updates.
+  A unified set of Splunk SOAR playbooks that automate URL and IP reputation investigations using layered enrichment, internal telemetry, and analyst-readable case notes.
 image:
   path: https://github.com/sparks-cam/sparks-cam.github.io/releases/download/assets-v1/url_playbook_overview_obfuscated.webp
 links:
-  - title: GitHub Repo (coming soon)
+  - title: GitHub Repo (sanitized examples)
     url: https://github.com/yourusername/soar-hardening
 ---
 
-## Splunk SOAR URL Reputation Playbook
-
+## SOAR Reputation Playbooks (URL & IP)
 
 ## About This Project
 
-In my experience when it comes to IR, repetitive enrichment tasks especially around suspicious URLs consumed a surprising amount of time. I built this Splunk SOAR playbook to **reduce alert fatigue**, **speed up decision-making**, and **increase investigation consistency** across our SOC and our MSSP.
+Reputation-based alerts make up a large portion of day-to-day Incident Response work. Suspicious URLs from phishing emails. IPs from firewall logs, proxy traffic, IDS alerts, and cloud telemetry.
 
-This playbook automatically detonates URLs against multiple internal and external reputation sources, normalizes the results, and **recommends next steps** aligned to our security policies.
+Individually, these investigations are simple. At scale, they become repetitive, inconsistent, and slow.
 
-> **Impact:** Reduced manual URL triage time while improving evidence quality in cases.
+I built these Splunk SOAR playbooks to standardize how URL and IP investigations are performed, reduce analyst fatigue, and surface useful context quickly without forcing analysts to pivot across tools or interpret raw data.
 
----
+This project consists of two playbooks built on the same core design:
+- URL Reputation Playbook
+- IP Reputation Playbook
 
-## Problem & Motivation
+## Shared Playbook Design
 
-When analysts are processing dozens or hundreds of alerts per shift:
+Both playbooks follow the same high-level workflow:
 
-- Manual URL checks become slow and frustrating  
-- Results may vary based on human interpretation  
-- Analyst notes often lack standardized context  
-- Adversaries move faster than humans can click
+1. Validate indicator input and fail fast
+2. Fan out enrichment across multiple services
+3. Pull internal Splunk telemetry for real-world context
+4. Normalize outputs into readable markdown tables
+5. Attach structured notes directly to the case
 
----
+Each enrichment path runs independently and writes results as they become available.
 
-## How It Works
+# URL Reputation Playbook
 
-**Input methods:**
+## Purpose
 
-- Extracted automatically from SOAR artifacts (email, phishing alerts, web events)
-- Analyst-prompted URL submission
+The URL Reputation playbook focuses on phishing and web-based threats and quickly answers whether a URL is malicious, suspicious, or safe.
 
-**Automated workflow:**
+## URL Enrichment Sources
 
-1. Validate the indicator (fail fast on null/empty input)
-2. Fan-out enrichment to multiple sources (URL analysis, phishing rep, malware analytics/sandbox, WHOIS, screenshots, TIP sandbox)
-3. Run internal context searches in Splunk (Web data model + TIP REST enrichment panels)
-4. Write **consistent markdown notes** per enrichment so the case tells the story without extra clicks
-5. Join results back together and publish a final **one-glance verdict table**
+- URL analysis and detonation
+- Phishing reputation services
+- Malware analytics and sandbox detonation
+- WHOIS enrichment
+- Website screenshots
+- TIP sandbox detonation
+- Internal Splunk web and proxy searches
 
-The result is a **single actionable summary** inside the case.
-
----
-
-## Architecture & Services
-
-At a high level, the playbook fans out enrichment against multiple services, then joins results back together into a **single verdict table** and **human-readable notes**.
-
-**Core actions/services (sanitized placeholders):**
-
-- `ASSET_URLSCAN` — URL analysis service (detonate + report)
-- `ASSET_WEB_SCREENSHOT` — Website screenshot capture (vault)
-- `ASSET_WHOIS` — WHOIS enrichment
-- `ASSET_PHISH_REP` — Phishing/URL reputation service
-- `ASSET_MALWARE_ANALYTICS` — Malware analytics / URL detonation
-- `ASSET_MALWARE_SANDBOX` — Malware sandbox (URL detonation + report)
-- `ASSET_TIP_SANDBOX` — TIP sandbox (detonate + fetch report)
-- `ASSET_SPLUNK_SEARCH` — Splunk search asset (Web data model + TIP REST enrichment)
-
-This design keeps everything **modular** (each enrichment writes its own note), and the end result is **correlated** into one summary table for quick analyst decisions.
-
----
-
-## Code Snippets
-
-Below are trimmed excerpts from the sanitized playbook code. They show the *actual* SOAR patterns used: decision gating, fan-out enrichment, consistent markdown notes, and a final correlated verdict.
-
-### 1) Sanitized assets/config (safe to share)
-
-```python
-# SANITIZED & NORMALIZED VERSION (public shareable)
-# Map these placeholders to your local Splunk SOAR asset names/URLs.
-ASSET_URLSCAN = "<url_analysis_asset>"
-ASSET_WEB_SCREENSHOT = "<web_screenshot_asset>"
-ASSET_WHOIS = "<whois_asset>"
-ASSET_PHISH_REP = "<phishing_reputation_asset>"
-ASSET_MALWARE_ANALYTICS = "<malware_analytics_asset>"
-ASSET_MALWARE_SANDBOX = "<malware_sandbox_asset>"
-ASSET_TIP_SANDBOX = "<tip_sandbox_asset>"
-ASSET_SPLUNK_SEARCH = "<splunk_search_asset>"
-
-SPLUNK_CLOUD_BASE = "https://<your_splunk_cloud_stack>"
-TIP_APP_NAME = "<TIP_app_name>"
-TIP_SANDBOX_BASE_URL = "https://<tip_sandbox_base_url>"
-```
-
-### 2) Input validation + fan-out enrichment
-
-The playbook gates execution so we don’t run a bunch of actions on a null/empty indicator, then kicks off parallel enrichment blocks.
+## URL Playbook – Input Validation & Fan-Out
 
 ```python
 @phantom.playbook_block()
@@ -117,149 +72,152 @@ def null_input_decision(...):
         whois_detonate(...)
         malware_analytics_url(...)
         url_protocol_format(...)
-        splunk_rf_search(...)
         web_splunk_query(...)
         tip_sandbox_detonate(...)
         return
-
-    null_fail_format(...)
 ```
 
-### 3) URL normalization for downstream reputation/sandbox actions
-
-Some actions expect a fully-qualified URL. This helper formats the input and immediately triggers the blocks that depend on it.
+## URL Playbook – URL Normalization
 
 ```python
 @phantom.playbook_block()
 def url_protocol_format(...):
-    template = "http://{0}
-"
+    template = "http://{0}\n"
     parameters = ["playbook_input:domain"]
-    phantom.format(container=container, template=template, parameters=parameters, name="url_protocol_format")
+    phantom.format(
+        container=container,
+        template=template,
+        parameters=parameters,
+        name="url_protocol_format"
+    )
 
     malware_sandbox_detonate(container=container)
     phish_reputation_check(container=container)
 ```
 
-### 4) Consistent analyst notes (example: URL analysis report)
-
-A pattern used throughout: *collect results → build a markdown table → add a case note.*
+## URL Playbook – Analyst Note Formatting
 
 ```python
-@phantom.playbook_block()
-def format_url_analysis_note(...):
-    template = """### URL Analysis Results
+template = """### URL Analysis Results
 
 Field | Value
 --- | ---
 Indicator | {0}
-Action Status | {1}
-Report Status | {2}
-Verdict | {3}
-Screenshot URL | {4}
-Response IP | {5}
-GeoIP Country Code | {6}
-GeoIP Country | {7}
-GeoIP Timezone | {8}
-ASN Name | {9}
-ASN Description | {10}
+Verdict | {1}
+Screenshot URL | {2}
+ASN | {3}
+Country | {4}
 """
-
-    parameters = [
-        "playbook_input:domain",
-        "url_analysis_detonate:action_result.status",
-        "url_analysis_report:action_result.status",
-        "url_analysis_report:action_result.data.*.verdicts.urlscan.malicious",
-        "url_analysis_report:action_result.data.*.task.screenshotURL",
-        "url_analysis_report:action_result.data.*.data.requests.0.response.asn.ip",
-        "url_analysis_report:action_result.data.*.data.requests.0.response.geoip.country",
-        "url_analysis_report:action_result.data.*.data.requests.0.response.geoip.country_name",
-        "url_analysis_report:action_result.data.*.data.requests.*.response.geoip.timezone",
-        "url_analysis_report:action_result.data.*.data.requests.*.response.asn.name",
-        "url_analysis_report:action_result.data.*.data.requests.*.response.asn.description",
-    ]
-    phantom.format(container=container, template=template, parameters=parameters, name="format_url_analysis_note")
 ```
 
-### 5) Final correlated verdict table (the “one-glance” summary)
+# IP Reputation Playbook
 
-Once the key actions finish, the playbook joins results and writes a single table showing verdict/score per source.
+## Purpose
+
+The IP Reputation playbook focuses on network-based threats and infrastructure analysis.
+
+## IP Enrichment Sources
+
+- IP abuse and reputation services
+- Multi-source reputation intelligence
+- WHOIS and ASN lookups
+- Secure Web Gateway lookups
+- Internet exposure scanning
+- URL/IP analysis and screenshots
+- Internal Splunk firewall and traffic searches
+- TIP enrichment via REST searches
+
+## IP Playbook – Input Validation & Fan-Out
 
 ```python
 @phantom.playbook_block()
-def join_filter_matching_domains(...):
-    if phantom.completed(action_names=[
-        "url_analysis_detonate",
-        "malware_sandbox_detonate",
-        "whois_detonate",
-        "phish_reputation_check",
-        "malware_analytics_url",
-        "tip_sandbox_report"
-    ]):
-        filter_matching_domains(container=container, handle=handle)
+def decision_1(...):
+    found_match_1 = phantom.decision(
+        container=container,
+        conditions=[["playbook_input:ip", "not in", None]],
+        delimiter=None
+    )
 
-@phantom.playbook_block()
-def format_verdict_note(...):
-    template = """Indicator | URL Analysis | Malware Sandbox | Phish Reputation | Malware Analytics | TIP Sandbox
----|---|---|---|---|---
-%%
-{0} | {1} | {2} | {3} | {4} | {5}
-%%"""
-
-    parameters = [
-        "playbook_input:domain",
-        "filtered-data:filter_matching_domains:condition_1:url_analysis_detonate:action_result.data.*.verdicts.urlscan.malicious",
-        "filtered-data:filter_matching_domains:condition_1:malware_sandbox_detonate:action_result.data.*.result.report.verdict",
-        "filtered-data:filter_matching_domains:condition_1:phish_reputation_check:action_result.message",
-        "filtered-data:filter_matching_domains:condition_1:malware_analytics_url:action_result.data.*.threat.score",
-        "filtered-data:filter_matching_domains:condition_1:tip_sandbox_report:action_result.data.*.report.summary.score",
-    ]
-    phantom.format(container=container, template=template, parameters=parameters, name="format_verdict_note")
+    if found_match_1:
+        ip_abuse_reputation(...)
+        whois_ip(...)
+        swg_ip_lookup(...)
+        reputation_service_ip(...)
+        tip_ip_search(...)
+        url_analysis_lookup(...)
+        splunk_ip_search(...)
+        internet_exposure_ip(...)
+        return
 ```
 
+## IP Playbook – External Reputation Enrichment
 
-## Screenshots
+```python
+@phantom.playbook_block()
+def ip_abuse_reputation(...):
+    parameters.append({
+        "ip": playbook_input_ip_item[0],
+        "days": 10,
+    })
+    phantom.act(
+        "lookup ip",
+        parameters=parameters,
+        assets=[ASSET_IP_REP],
+        callback=ip_abuse_reputation_format
+    )
+```
 
-**Initial Input & Decision Path**
+## IP Playbook – Internal Splunk Context
 
-![Playbook Overview](https://github.com/sparks-cam/sparks-cam.github.io/releases/download/assets-v1/url_playbook_overview_obfuscated.webp)
+```python
+@phantom.playbook_block()
+def splunk_ip_search(...):
+    phantom.act(
+        "run query",
+        parameters=parameters,
+        assets=[ASSET_SPLUNK_SEARCH],
+        callback=splunk_ip_format
+    )
+```
 
----
+## IP Playbook – Analyst Note Formatting
 
-## Key Features at a Glance
+```python
+template = """### IP Reputation Results
 
-- Multi-source reputation scoring
-- Automatically updates notable + artifacts
-- Human-readable analyst note summary
-- Designed as a **core module** for future playbooks
-- Analyst override for case-by-case nuance
-- Standardized enrichment → better case investigations
+Field | Value
+--- | ---
+Indicator | {0}
+ISP | {1}
+Country | {2}
+Total Reports | {3}
+Usage Type | {4}
+"""
+```
 
----
+## What Analysts See
 
-## Results & Lessons Learned
+- External reputation verdicts
+- Infrastructure and ASN context
+- Internal traffic evidence
+- Internet exposure indicators (IP)
+- Sandbox and screenshot context (URL)
+- Clean, readable case notes
 
-- Alert fatigue decreased on phishing URL queues  
-- Junior analysts became more efficient with improved guidance  
-- Case documentation quality improved significantly  
-- Good foundation for AI-assisted triage and auto-blocking logic  
+## Key Features
 
-Building this taught me a ton about:
+- URL and IP reputation automation
+- Multi-source enrichment
+- Internal Splunk telemetry correlation
+- TIP integration via REST searches
+- Modular, reusable SOAR design
+- Analyst-readable markdown notes
+- Safe for enterprise and MSSP use
 
-- Balancing **automation** with **analyst flexibility**
-- Making security tooling feel like a **teammate**, not an obstacle
-- The importance of **explainability** in automated decisions
+## Future Improvements
 
----
-
-## Roadmap & Future Capabilities
-
-- Add **OpenAI Threat Analysis** summaries for explainability
-- Add **GreyNoise** classification for scanning vs active threats
-- Implement **kill chain scoring** to automatically escalate risky events
-- Build correlation with **domain metadata APIs**
-- Convert into a **shared library** for broader playbook use
-
----
-
-
+- Shared enrichment modules across indicators
+- Cross-indicator correlation in a single case
+- Risk scoring based on multiple services
+- Optional automated blocking with analyst approval
+- Expansion to domain and file hash reputation
