@@ -1,138 +1,106 @@
 ---
-title: "Week 1 – Redefining My Role: From Writing Detections to Owning Automation"
+title: "Upskill Journey – Week 1: Admitting I’m Lost (and Why That’s Probably Fine)"
 date: 2026-01-10
-categories: [cybersecurity, soar, detection-engineering, career]
-tags: [cybersecurity, soar, detection-engineering, career, automation, ai-resilience]
+tags: [cybersecurity, upskill, incident-response, ai, career]
 ---
 
-This week I officially started a deliberate shift in how I think about my role in cybersecurity.
+I almost didn’t write this post.
 
-Not a new job.  
-Not a new title.  
-Not even a new tool.
+Not because I didn’t do anything this week — but because most of what I did didn’t *feel* impressive. No shiny new tool. No model training. No “look at this cool AI thing I built.” Just a lot of thinking, sketching, and honestly… realizing how overwhelmed I’ve been trying to figure out what the *right* direction even is anymore.
 
-A **reframing**.
+So this post is Week 1. And Week 1 is mostly about admitting I’m lost.
 
-I already spend most of my day writing detections (correlation searches in Splunk) and designing SOAR playbooks. On paper, that sounds pretty future-proof. In reality, I’ve been feeling an uncomfortable truth creep in over the last year:
+## The problem I’m actually dealing with
 
-> Writing detections and building playbooks is no longer the hard part.
+I work in Incident Response. I write detections. I design SOAR playbooks. I triage alerts. On paper, that should feel stable. But the industry noise right now is wild.
 
-The hard part is deciding **how far automation should be allowed to go** — and being accountable when it does.
+Every other post is:
+- “AI will replace SOC analysts”
+- “Everything will be automated”
+- “Learn ML or you’re doomed”
 
----
+And I think the most dangerous thing about that noise isn’t that it’s wrong — it’s that it pushes you toward **learning random things with no proof of value**.
 
-## The problem I’m trying to solve
+This week I stopped asking:
+> “What should I learn next?”
 
-Most detections today are written like this:
-- Fire an alert
-- Let the SOC figure it out
-- Maybe automate a response later
+And started asking:
+> “What do I do today that AI *cannot safely own alone*?”
 
-That model doesn’t scale.
-And worse — it hides risk.
+That question changed everything.
 
-Because the moment you automate *anything*, you’re no longer just detecting threats.  
-You’re making **decisions on behalf of the organization**.
+## What I did this week (actually)
 
-And those decisions carry blast radius:
-- Locking accounts
-- Blocking access
-- Preserving (or losing) evidence
-- Triggering HR, legal, or patient-safety consequences
+No heroics. No late nights. Just consistent, boring work.
 
-AI can help write detections.
-AI can even suggest playbooks.
+### 1. I looked at alerts differently
+Instead of asking “is this a true positive?”, I started asking:
+- What context is *missing* here?
+- What would an LLM confidently guess wrong?
+- Where does automation need to stop and escalate?
 
-AI **cannot** own those outcomes.
+That alone surfaced more useful insights than any AI course could have.
 
----
+### 2. I sketched decision points, not tools
+I didn’t write code. I wrote logic:
+- If X + Y + Z → auto close
+- If privilege escalation + uncertainty → human review
+- If blast radius unknown → stop automation
 
-## What I worked on this week
+This felt obvious… which probably means it’s important.
 
-Instead of writing “another detection,” I focused on something I honestly hadn’t formalized before:
+### 3. I started documenting *judgment*
+Not detections.
+Not alerts.
+Judgment.
 
-### A **Detection → SOAR Contract**
+Why something *shouldn’t* be automated.
+Why confidence matters more than speed.
+Why false certainty is worse than delay.
 
-The idea is simple:
-A detection shouldn’t just say *“something looks bad.”*
-It should explicitly define:
-- What confidence it has
-- What actions are allowed
-- What actions are forbidden
-- When a human *must* be involved
+That’s not something I’ve ever seen clearly articulated in most SOC tooling.
 
-This week I started drafting a contract that every automation-ready detection should meet.
+## A realization I didn’t expect
 
-So far, the contract defines:
-- **Required fields** (confidence score, severity, asset criticality)
-- **Allowed automation actions** by confidence tier
-- **Escalation rules**
-- **Evidence requirements** (what must be preserved before any action)
+I kept thinking I needed to “learn AI.”
 
-This immediately changed how I looked at my existing detections.
+What I actually need is to **design systems where AI is constrained**.
 
-Some of them were solid.
-Some of them were… automation landmines.
+AI is good at summarizing.
+AI is bad at understanding consequences.
+AI is dangerous when it *sounds* confident.
 
----
+That means the value isn’t in prompting better — it’s in deciding **where prompts are even allowed to exist**.
 
-## The uncomfortable realization
+That’s an Incident Response problem. Not an ML one.
 
-I realized that a lot of detection engineering implicitly relies on *tribal knowledge*:
+## What this week changed for me
 
-> “The SOC knows what to do with this alert.”
+I’m no longer chasing:
+- generic ML learning paths
+- random AI certifications
+- “SOC chatbot” projects
 
-That’s fine when humans are always in the loop.
-It’s dangerous when automation starts making decisions faster than people can think.
+Instead, I’m focusing on:
+- decision frameworks
+- escalation logic
+- accountability boundaries
+- automation with brakes
 
-If I want to be valuable in an AI-heavy future, my value isn’t:
-- Writing clever SPL
-- Building flashy dashboards
-- Chasing the next detection idea
+That feels a lot more grounded — and honestly, more aligned with how real incidents actually work.
 
-My value is:
-> Designing systems that **know when to stop**.
+## What’s coming next (Week 2)
 
----
+Next week I’m going to:
+- Start formalizing an **AI-aware incident triage framework**
+- Map common alerts to “AI allowed / AI forbidden”
+- Document failure cases where automation would cause real damage
 
-## What I produced (artifacts)
+No promises it’ll be pretty yet. But it’ll be real.
 
-This week’s tangible outputs:
-- First draft of a **Detection → SOAR Contract**
-- One existing detection rewritten to comply with it
-- Notes on where automation *must not* be allowed
+If nothing else, Week 1 proved something important:
 
-Nothing flashy.
-But foundational.
+I don’t need to become someone else to stay employable.  
+I need to make what I already do **explicit, defensible, and harder to automate incorrectly**.
 
-This is the kind of work that doesn’t show up in tool demos — and absolutely shows up during incidents.
-
----
-
-## Why this matters for AI (and my career)
-
-AI will keep getting better at:
-- Suggesting detections
-- Optimizing thresholds
-- Generating playbooks
-
-It will not:
-- Understand organizational risk tolerance
-- Be accountable when automation causes harm
-- Decide when uncertainty is too high to act
-
-That gap — the space between *capability* and *responsibility* — is where I’m deliberately positioning myself.
-
----
-
-## Next week
-
-Next up:
-- Formalizing **SOAR engineering standards**
-- Defining failure modes
-- Making automation observable instead of magical
-
-I want my automation to be boring, predictable, and defensible.
-If it ever scares me, it’s wrong.
-
-More to come.
+That feels like a direction I can actually walk.
