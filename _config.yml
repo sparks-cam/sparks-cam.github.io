@@ -32,7 +32,7 @@ title:                 Cameron Sparks
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Cybersecurity engineer focused on incident response in healthcare, documenting my journey into cloud and AI security while sharing hands-on projects, life posts, and the TTRPG worlds I build with friends.
+  Cybersecurity engineer focused on incident response in healthcare, documenting my journey into cloud and AI security while sharing hands-on projects.
 
 # A shorter description for the sidebar.
 tagline:               Cybersecurity Professional
@@ -61,8 +61,6 @@ menu:
     url:              /cybersecurity/
   - title:             Projects
     url:               /projects/
-  - title:            TTRPG
-    url:              /ttrpg/
   - title:             About
     url:               /about/
   - title:             Résumé
