@@ -46,32 +46,6 @@ Some projects are clean. Some are rough. That’s intentional.
 
 ---
 
-## TTRPG Stuff
-
-I also spend a lot of time on tabletop RPGs.
-
-This is where I keep:
-
-- Characters and backstories
-- Campaign notes
-- Rules experiments and homebrew ideas
-
-It’s creative space and a good break from security work.
-
----
-
-## Life Notes
-
-I’m also a partner, a parent, and trying to keep everything balanced.
-
-You’ll occasionally see posts about:
-
-- Working on call while raising a toddler
-- Learning in small, realistic chunks
-- Trying to build a career without burning everything else down
-
----
-
 If you’re just browsing, feel free to look around.  
 If you’re here for work reasons, the Projects section is probably the most relevant.
 
