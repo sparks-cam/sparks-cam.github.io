@@ -1,10 +1,14 @@
 ---
 title: "Upskill Journey – Week 2: Cloud Journey"
 date: 2026-01-10
+categories:
+  - blog
+  - upskill
+  - cybersecurity
 tags: [cybersecurity, upskill, incident-response, ai, career, cloud]
 ---
 
-### Upskill Week 2
+### Upskill Journey - Week 2: Cloud Journey
 
 This week I've decided to work on gaining more Cloud Security experience. Regardless of where I go with my career more Cloud experience will be required.
 

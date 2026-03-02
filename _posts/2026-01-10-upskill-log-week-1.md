@@ -1,6 +1,10 @@
 ---
 title: "Upskill Journey – Week 1: Admitting I’m Lost (and Why That’s Probably Fine)"
 date: 2026-01-10
+categories:
+  - blog
+  - upskill
+  - cybersecurity
 tags: [cybersecurity, upskill, incident-response, ai, career]
 ---
 
